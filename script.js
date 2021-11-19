@@ -43,7 +43,7 @@ breakBtn.addEventListener("click", () => {
     }, 1000);
   } else {
     --chillNum;
-    chillNum = 900;
+    chillNum = 9;
   }
 });
 
@@ -67,7 +67,7 @@ btnStart.addEventListener(
       }, 1000);
     } else {
       isPaused = false;
-      duration = 2700;
+      duration = 2;
       timerCalc(duration);
       runProgress();
       --duration;
