@@ -16,8 +16,8 @@ let isPaused = false;
 let onBreak = false;
 let num = 0;
 let numBreak = 0;
-let duration = 2;
-let chillNum = 9;
+let duration = 2700;
+let chillNum = 900;
 let counts = localStorage.getItem("countsValue") || 0;
 
 function timerCalc(value) {
@@ -43,7 +43,7 @@ breakBtn.addEventListener("click", () => {
     }, 1000);
   } else {
     --chillNum;
-    chillNum = 9;
+    chillNum = 900;
   }
 });
 
@@ -67,7 +67,7 @@ btnStart.addEventListener(
       }, 1000);
     } else {
       isPaused = false;
-      duration = 2;
+      duration = 2700;
       timerCalc(duration);
       runProgress();
       --duration;
