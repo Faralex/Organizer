@@ -1,0 +1,121 @@
+.buttons {
+  text-align: center;
+}
+
+.start,
+.pause,
+.break {
+  border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px;
+  font-size: 25px;
+}
+
+.demo {
+  text-align: center;
+  color: greenyellow;
+  font-size: 50px;
+}
+
+body {
+  background-color: gray;
+}
+
+.active {
+  color: red;
+}
+
+.activeBreak {
+  color: aqua;
+}
+
+.container-bar {
+  height: 40px;
+  background-color: #ccc;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container .progress-bar {
+  /* position: absolute; */
+  height: 100%;
+  background-color: lightgreen;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 0%;
+}
+
+.container .container-bar:nth-child(1) .progress-bar {
+  background-color: #00FF00	;
+}
+
+.container .container-bar:nth-child(2) .progress-bar {
+  background-color: #7CFC00	;
+}
+
+.container .container-bar:nth-child(3) .progress-bar {
+  background-color: #32CD32	;
+}
+.container .container-bar:nth-child(4) .progress-bar {
+  background-color: #228B22	;
+}
+.container .container-bar:nth-child(5) .progress-bar {
+  background-color: #008000;
+}
+.container .container-bar:nth-child(6) .progress-bar {
+  background-color: #4B0082	;
+}
+.container .container-bar:nth-child(7) .progress-bar {
+  background-color: #800080;
+}
+.container .container-bar:nth-child(8) .progress-bar {
+  background-color: #9932CC;
+}
+.container .container-bar:nth-child(9) .progress-bar {
+  background-color: #9370DB;
+}
+.container .container-bar:nth-child(10) .progress-bar {
+  background-color: #FF00FF;
+}
+
+
+@keyframes progress-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.counts {
+  display: flex;
+
+  vertical-align: text-bottom;
+  align-items: center;
+}
+
+.reset {
+  border-radius: 15px;
+  padding: 7px 35px;
+  cursor: pointer;
+  color: black;
+  background-color: orange;
+  border: none;
+}
+
+.total {
+  display: flex;
+  color: greenyellow;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-right: 80px;
+}
