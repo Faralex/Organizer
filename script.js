@@ -16,8 +16,8 @@ let isPaused = false;
 let onBreak = false;
 let num = 0;
 let numBreak = 0;
-let duration = 2700;
-let chillNum = 900;
+let duration = 2;
+let chillNum = 9;
 let counts = localStorage.getItem("countsValue") || 0;
 
 function timerCalc(value) {
