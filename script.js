@@ -7,8 +7,8 @@ let progressBarr = document.querySelector(".progress-bar2");
 let reset = document.querySelector(".reset");
 let total = document.querySelector(".total");
 let breakBtn = document.querySelector(".break");
-let audio = new Audio("...audio/kedamShyGirl.mp3");
-let audioBreak = new Audio("...audio/logicEveryday.mp3");
+let audio = new Audio("audio/kedamShyGirl.mp3");
+let audioBreak = new Audio("audio/logicEveryday.mp3");
 
 let timerStart;
 let timerBreak;
